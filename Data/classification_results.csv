@@ -1,0 +1,6 @@
+,model_name,hyperparameters,roc_auc_eval,roc_auc_test,f1_eval,f1_test,acc_eval,acc_test
+0,logistic,"{'penalty': 'l1', 'C': 9.233859476879779, 'multi_class': 'auto', 'solver': 'liblinear', 'max_iter': 10000}",0.8806247419843126,0.713768115942029,0.8640483383685801,0.41025641025641024,0.8235294117647058,0.603448275862069
+1,decision_tree_model,"{'criterion': 'gini', 'max_depth': 9, 'min_samples_split': 22, 'min_samples_leaf': 2, 'ccp_alpha': 3.0930924690552137}",0.5,0.5,0.7971698113207547,0.34285714285714286,0.6627450980392157,0.20689655172413793
+2,rf_model,"{'max_depth': 5, 'n_estimators': 12}",0.9696229530755469,0.7318840579710144,0.9473684210526315,0.4347826086956522,0.9294117647058824,0.5517241379310345
+3,xgb_model,"{'lambda': 2.0901394901849304e-05, 'alpha': 0.007423146427788864, 'subsample': 0.3, 'learning_rate': 4.727613425742124, 'n_estimators': 6, 'max_depth': 13}",0.5492981973303976,0.4963768115942029,0.8057553956834531,0.35294117647058826,0.6823529411764706,0.2413793103448276
+4,cb_model,"{'iterations': 2500, 'colsample_bylevel': 0.05028854740208882, 'depth': 4, 'boosting_type': 'Plain', 'bootstrap_type': 'MVS', 'loss_function': 'CrossEntropy', 'learning_rate': 0.5800438176756206, 'random_strength': 1.3611764082380196, 'leaf_estimation_method': 'Newton', 'eval_metric': 'AUC'}",1.0,0.8206521739130435,1.0,0.4782608695652174,1.0,0.5862068965517241
