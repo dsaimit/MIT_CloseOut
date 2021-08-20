@@ -1,4 +1,4 @@
-# MIT Capstone Project 2021 - Understanding what causes suboptimal operational performancein clinical trials
+# MIT Capstone Project 2021 - Understanding what causes suboptimal operational performance in clinical trials
 
 ## Authors: Denis Sai & Edoardo Italia
 
